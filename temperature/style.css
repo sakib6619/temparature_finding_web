@@ -1,0 +1,20 @@
+/* body {
+    background: url(images/bg-image.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+} */
+
+body{
+    background-image: linear-gradient(rgba(6, 3, 18, 0.3),rgba(21, 5, 94, 0.374));
+}
+.bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.input{
+    padding: 1.5rem;
+    font-weight: 600;
+    background-color: rgba(238, 213, 213, 0.948);
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Temperature Find</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <video autoplay loop muted class="bg">
+            <source src="images/bgVideo.mp4" type="video/mp4">
+        </video>
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="cityName" type="text" class="form-control input" placeholder="Enter Location...">
+                <div class="input-group-append">
+                    <button onclick="searchTemperature()" type="button" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+            <img id="weather-icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 id="city">Dhaka</h1>
+            <h3><span id="Temperature">38.06</span>&deg;C</h3>
+            <h1 class="lead" id="condition">Clouds</h1>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
